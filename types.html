@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <link href="types.css" rel="stylesheet" type="text/css">
+      <link rel="shortcut icon" href="images/icon.png">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Виды SSD</title>
+    
+</head>
+<body>
+    <header class = "header">
+        <a class="logo" href="index.html"><img src = "images/ssd.png" alt=""></a>
+        <div class="header_menu">
+            <ul class = "menu">
+                <li><a href="history.html">История</a></li>
+                <li><a href="architecture.html">Архитектура</a></li>
+                <li><a href="controller.html">Контроллер SSD</a></li>
+                <li><a href="types.html">Виды SSD</a></li>
+                <li><a href="plus.html">Плюсы и минусы</a></li>
+            </ul>
+        </div>
+        <div class="b_menu">
+            <input id = "menu_toggle" type="checkbox">
+            <label class="menu_btn" for="menu_toggle"><span></span></label>
+            <ul class = "drop-menu">
+                <li><a href="history.html">История</a></li>
+                <li><a href="architecture.html">Архитектура</a></li>
+                <li><a href="controller.html">Контроллер SSD</a></li>
+                <li><a href="types.html">Виды SSD</a></li>
+                <li><a href="plus.html">Плюсы и минусы</a></li>
+            </ul>
+        </div>
+        
+    </header>
+    <main class = "main">
+        <a class="types_header"><h1>Виды SSD</h1></a>
+            <article class = "types_text">
+                <p> Форм-фактор или типоразмер — это набор определенных стандартов, которые необходимо соблюдать при производстве компьютерного (и не только) «железа». Длина-ширина-высота и форма компонентов, расположение крепежных отверстий и элементов должны быть унифицированы, иначе подборка комплектующих превратится в весьма трудоемкую задачу. На сегодняшний день существует четыре наиболее распространенных форм-фактора SSD, а также несколько более редких типов (U.2, DDR-T, EDSFF, NF1), задействованных в коммерческом сегменте или только находящихся в разработке.</p>
+                <p>SATA SSD диск размером 2.5 дюйма – классический «ноутбучный», подходящий как для использования в стационарных ПК, так и для лэптопов. Подключаются по стандартному интерфейсу SATA III или через специальный CD-ROM адаптер-переходник для ноутбука. От аналогичного HDD внешне отличается только гладким корпусом и меньшей массой.</p>
+                <figure>
+                    <img src = "images/satassd.jpg">
+                    <figcaption>SATA SSD</figcaption>
+                </figure>
+                <p>SSD M.2. Небольшая печатная плата с чипами (иногда укомплектованная радиаторами от производителя), немного напоминающая по своей форме планку оперативной памяти. Устанавливается в соответствующий разъем на материнской плате (когда он предусмотрен); в случае же компьютера, не располагающего подобным, возможно подключить SSD M.2 при помощи специальных переходников на место для обычного 2.5-дюйового диска или в разъем PCI-Express. В рамках данного форм-фактора есть еще дополнительное разделение:</p>
+                <p>По габаритным размерам. Ширина стандартная, 22 мм, а длина, как правило, принимает значение 80, 60 или 42 мм. Определить размеры М2 ССД диска можно по маркировке — 2280 (ширина — 22, длина — 80), 2260 или 2242. Допустимы, но не так распространены варианты в 110, 38, 30, 26 и 16 мм; иногда встречаются универсальные накопители 80мм, которые можно самостоятельно подогнать до 60 или 42 мм (все жизненно важные элементы на них размещены в пределах первых 42 мм).</p>
+                <p>По форме ключа — расположения выреза на полосе контактов (зависит от интерфейса подключения). Существуют три разновидности ключей — B (SATA и PCI-E x2), M (PCI-E x4 и SATA), M+B (универсальный ключ под оба разъема, ограниченный при этом по скорости значением PCI-E x2).</p>
+                <figure>
+                    <img src = "images/m2ssd.jpg">
+                    <figcaption>M.2. SSD</figcaption>
+                </figure>
+                <p>mSATA SSD (mini-SATA). Отмирающий вариант, вытесненный более успешным M.2. Отличается отсутствием корпуса и скромным размером в 1,8 дюйма, что делало в свое время особенно привлекательным выбор SSD mSATA диска для ноутбука, и особенно — ультрабуков. К материнской плате подключается через специальный разъем mSATA, присутствующий на некоторых десктопных и ноутбучных платах. По скорости работы mSATA соответствует SATA III.</p>
+                <figure>
+                    <img src = "images/msata.jpg">
+                    <figcaption>mSATA SSD</figcaption>
+                </figure>
+                <p>PCI-E SSD. Устанавливаются только в стационарных компьютерах в разъем PCI-Express, могут быть укомплектованы радиаторами для охлаждения. По размеру встречаются стандартного FHFL (Full-Height Full-Length — 120 мм по высоте, 312 мм в длину), половинного FHHL и минимального HHHL (Half-Height Half-Length 79.2 мм х 175.26 мм) профилей. В зависимости от накопителя работают с интерфейсами PCI-Express x2, x4 или x8.</p>
+                <figure>
+                    <img src = "images/pci-essd.jpg">
+                    <figcaption>PCI-E SSD</figcaption>
+                </figure>
+            </article>
+    </main>
+    <div id="back_to_top" class="back-to-top">
+        <svg xmlns="http://www.w3.org/2000/svg" style="transform: rotate(270deg);" width="24" height="24" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+    </div>
+    <footer>
+        <p><a class="contacts" href="https://vk.com/xenondrs">Контакты</a></p>
+      <address class="address">
+        e-mail: fandrey_original@mail.ru
+  </address>
+      <section class = "designed">
+            <p>&copy 2021 Designed by Andrey Filin</p>
+      </section>
+    </footer>
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
